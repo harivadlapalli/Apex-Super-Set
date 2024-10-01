@@ -3,6 +3,7 @@
         <!-- Display the message in the parent -->
         <p>Message in Parent: {message}</p>
         <!-- Pass message to child using the correct attribute name -->
+         <lightning-input label = 'Ener value here' value={message} onchange={ifvalchange}> </lightning-input>
         <c-child parent-message={message}></c-child>
     </lightning-card>
 </template>
